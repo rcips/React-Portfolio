@@ -24,6 +24,7 @@ const Projects = () => {
 			id: 3,
 			src: cpb,
 			href: "https://github.com/ChrlnSaez/Cyberpunk_API",
+			href2: "https://cypberpunk-client.vercel.app/",
 		},
 		{
 			id: 4,
