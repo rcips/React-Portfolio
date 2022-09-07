@@ -4,7 +4,7 @@ import React from "react"
 import HeroImage from "../assets/portfolio/coding.gif"
 import { MdKeyboardArrowRight } from "react-icons/md"
 import { useState, useEffect } from "react"
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaLinkedin , FaUser } from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi"
 import { Link } from "react-scroll"
 
@@ -80,6 +80,17 @@ const Home = () => {
 						>
 							<HiOutlineMail size={25} />
 						</a>
+
+						<a
+							href="/Rallion Antonio N. Cipriano.pdf"
+							className=" hover:scale-105 duration-200"
+						>
+							<FaUser size={25} />
+						</a>
+
+
+
+
 					</div>
 					<div>
 						<Link
