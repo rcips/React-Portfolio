@@ -87,7 +87,7 @@ const Experience = () => {
 			id: 12,
 			src: java,
 			title: "JAVA",
-			style: "shadow-lime-300",
+			style: "shadow-lime-400",
 		},
 		{
 			id: 13,
