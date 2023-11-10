@@ -5,6 +5,7 @@ import cpb from "../assets/portfolio/CPB.jpg"
 import onlineLibrary from "../assets/portfolio/Onlinelibrary.jpg"
 import simple from "../assets/portfolio/Converter.jpg"
 import rps from "../assets/portfolio/Rockpaper.jpg"
+import entrego from "../assets/portfolio/Entrego.JPG"
 
 const Projects = () => {
 	const portfolios = [
@@ -40,9 +41,9 @@ const Projects = () => {
 		},
 		{
 			id: 6,
-			src: rps,
-			href: "https://github.com/rcips/RockPaperScissor",
-			href2: "https://rcips.github.io/RockPaperScissor/",
+			src: entrego,
+			href: "https://gitlab.entrego.com.ph/entrego/microservice/booking-service/",
+			href2: "https://my.entrego.com.ph/",
 		},
 	]
 

@@ -10,6 +10,9 @@ import tailwind from "../assets/exp/tailwind.png"
 import mongo from "../assets/exp/mongo.png"
 import vba from "../assets/exp/vba.png"
 import github from "../assets/exp/github.png"
+import java from "../assets/exp/Java.png"
+import aws from "../assets/exp/aws.png"
+import postgresQL from "../assets/exp/PostgreSQL.png"
 
 const Experience = () => {
 	const experience = [
@@ -79,6 +82,24 @@ const Experience = () => {
 			src: github,
 			title: "GITHUB",
 			style: "shadow-gray-500",
+		},
+		{
+			id: 12,
+			src: java,
+			title: "JAVA",
+			style: "shadow-lime-300",
+		},
+		{
+			id: 13,
+			src: aws,
+			title: "AWS",
+			style: "shadow-gray-500",
+		},
+		{
+			id: 14,
+			src: postgresQL,
+			title: "POSTGRESQL",
+			style: "shadow-sky-300",
 		},
 	]
 

@@ -4,14 +4,19 @@ import React from "react"
 import HeroImage from "../assets/portfolio/coding.gif"
 import { MdKeyboardArrowRight } from "react-icons/md"
 import { useState, useEffect } from "react"
-import { FaGithub, FaLinkedin , FaUser } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaUser } from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi"
 import { Link } from "react-scroll"
 
 const Home = () => {
 	const [loopNum, setLoopNum] = useState(0)
 	const [isDeleting, setIsDeleting] = useState(false)
-	const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"]
+	const toRotate = [
+		"Web Developer",
+		"Web Designer",
+		"UI/UX Designer",
+		"Junior Backend Developer",
+	]
 	const [text, setText] = useState("")
 	const [delta, setDelta] = useState(300 - Math.random() * 100)
 	const period = 800
@@ -87,10 +92,6 @@ const Home = () => {
 						>
 							<FaUser size={25} />
 						</a>
-
-
-
-
 					</div>
 					<div>
 						<Link
