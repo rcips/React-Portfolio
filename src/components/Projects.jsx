@@ -4,46 +4,46 @@ import rubiks from "../assets/portfolio/Rubriks.JPG"
 import cpb from "../assets/portfolio/CPB.jpg"
 import onlineLibrary from "../assets/portfolio/Onlinelibrary.jpg"
 import simple from "../assets/portfolio/Converter.jpg"
-import rps from "../assets/portfolio/Rockpaper.jpg"
 import entrego from "../assets/portfolio/Entrego.JPG"
+import cxfabric from "../assets/portfolio/CXFabric.png"
 
 const Projects = () => {
 	const portfolios = [
 		{
 			id: 1,
-			src: restaurant,
-			href: "https://github.com/rcips/TripleR-Fastfood",
-			href2: "https://rcips.github.io/TripleR-Fastfood/",
-		},
-		{
-			id: 2,
 			src: rubiks,
 			href: "https://github.com/Elayism/NO-EROR",
 			href2: "https://elayism.github.io/NO-EROR/",
 		},
 		{
-			id: 3,
+			id: 2,
 			src: cpb,
 			href: "https://github.com/ChrlnSaez/Cyberpunk_API",
 			href2: "https://cypberpunk-client.vercel.app/",
 		},
 		{
-			id: 4,
+			id: 3,
 			src: onlineLibrary,
 			href: "https://github.com/rcips/OnlineLibrary-JS",
 			href2: "https://rcips.github.io/OnlineLibrary-JS/",
 		},
 		{
-			id: 5,
+			id: 4,
 			src: simple,
 			href: "https://github.com/rcips/simpleconversion",
 			href2: "https://rcips.github.io/simpleconversion/",
 		},
 		{
-			id: 6,
+			id: 5,
 			src: entrego,
 			href: "https://gitlab.entrego.com.ph/entrego/microservice/booking-service/",
 			href2: "https://my.entrego.com.ph/",
+		},
+		{
+			id: 6,
+			src: cxfabric,
+			href: "https://github.com/cxfabric/",
+			href2: "https://cxf-frontend-dev.cxfabric.io/",
 		},
 	]
 
